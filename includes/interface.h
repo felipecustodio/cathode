@@ -1,6 +1,9 @@
 #ifndef __INTERFACE_H__
 #define __INTERFACE_H__
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <curses.h>
 #include <menu.h>
 #include <string.h>
 
@@ -10,7 +13,6 @@
 /********* INTERFACE ************/
 /********************************/
 
-void menu();
 void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
 
 #endif

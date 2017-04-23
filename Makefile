@@ -5,7 +5,7 @@ CC = gcc
 BINARY = ./build/output
 
 # sources directory
-SRC = ./src/
+SRC = ./src/interface.c
 
 # includes directory
 INCLUDES = ./includes
