@@ -102,6 +102,7 @@ int main()
 				break;
 		}
 	}
+
 	unpost_menu(my_menu);
 	for(i = 0; i < n_choices; ++i)
 		free_item(my_items[i]);
